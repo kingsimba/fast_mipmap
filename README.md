@@ -1,0 +1,3 @@
+# Shrink grayscale image
+
+Work in progress...
