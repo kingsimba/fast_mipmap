@@ -130,17 +130,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="fast_mipmap.cpp" />
-    <ClCompile Include="fast_mipmap_unittest.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="neon_min_unittest.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="fast_mipmap.h" />
-    <ClInclude Include="neon_min.h" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\fast_mipmap.cpp" />
+    <ClCompile Include="src\fast_mipmap_unittest.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\neon_min_unittest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\fast_mipmap.h" />
+    <ClInclude Include="src\neon_min.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

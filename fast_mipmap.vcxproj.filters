@@ -11,28 +11,29 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="fast_mipmap.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="neon_min_unittest.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="fast_mipmap_unittest.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="fast_mipmap.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="neon_min.h">
-      <Filter>src</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\fast_mipmap_unittest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\neon_min_unittest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fast_mipmap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\neon_min.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fast_mipmap.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
